@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import SheetProvider from "~/providers/SheetProvider.vue";
 </script>
 
 <template>
-  <SidebarProvider>
-    <AppSidebar />
-    <main>
-      <SidebarTrigger />
-    </main>
-  </SidebarProvider>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+
+  <Toaster />
+  <SheetProvider />
 </template>

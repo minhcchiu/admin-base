@@ -3,7 +3,7 @@ import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt([
   {
-    ignores: ["./.nuxt/**/*", "app/components/ui/**", "tailwind.config.js"],
+    ignores: ["./.nuxt/**/*", "./app/components/ui/**", "tailwind.config.js"],
   },
   {
     files: ["**/*.ts", "**/*.vue"],

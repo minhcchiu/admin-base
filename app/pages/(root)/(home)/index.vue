@@ -66,7 +66,7 @@ const cards = [
           class="flex aspect-video flex-col items-center justify-center gap-1 rounded-xl py-5"
         >
           <div class="flex flex-1/2 items-center">
-            <img :src="card.image" class="size-12 rounded-full object-cover" />
+            <img :src="card.image" class="size-12 rounded-full object-cover" >
           </div>
 
           <div class="flex flex-1/2 flex-col items-center">

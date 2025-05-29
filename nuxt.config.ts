@@ -2,6 +2,9 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   modules: [
@@ -17,11 +20,11 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
   ],
-  css: ["~/assets/css/tailwind.css"],
+  css: ["./assets/css/tailwind.css"],
   vite: { plugins: [tailwindcss()] },
   shadcn: {
     prefix: "",
-    componentDir: "./components/ui",
+    componentDir: "./app/components/ui",
   },
   ssr: false,
   colorMode: {

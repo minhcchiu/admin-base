@@ -82,7 +82,7 @@ const data = {
       items: [
         {
           title: "Genesis",
-          url: "#",
+          url: "/databases",
         },
         {
           title: "Explorer",

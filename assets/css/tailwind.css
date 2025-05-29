@@ -184,6 +184,16 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .tab {
+    @apply  border-0! font-normal! flex-0! h-full! py-6! rounded-none! hover:border-b-black! text-base! text-gray-600!
+  }
+
+  .tab[aria-selected="true"] {
+    box-shadow: none !important;
+    @apply border-b-1! border-b-black!
+}
+  
 }
 
 @layer utilities {
@@ -198,3 +208,4 @@
     );
   }
 }
+

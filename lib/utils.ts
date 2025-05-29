@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 import { type Ref } from "vue";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 export function valueUpdater<T extends Updater<any>>(

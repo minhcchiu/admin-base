@@ -186,14 +186,13 @@
   }
 
   .tab {
-    @apply  border-0! font-normal! flex-0! h-full! py-6! rounded-none! hover:border-b-black! text-base! text-gray-600!
+    @apply h-full! flex-0! rounded-none! border-0! py-6! text-base! font-normal! text-gray-600! hover:border-b-black!;
   }
 
   .tab[aria-selected="true"] {
     box-shadow: none !important;
-    @apply border-b-1! border-b-black!
-}
-  
+    @apply border-b-1! border-b-black!;
+  }
 }
 
 @layer utilities {
@@ -208,4 +207,3 @@
     );
   }
 }
-

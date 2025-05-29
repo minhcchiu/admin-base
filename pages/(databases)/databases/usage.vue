@@ -1,10 +1,7 @@
 <script setup lang="ts">
-console.log("Page collected")
-
+console.log("Page collected");
 </script>
 
 <template>
-    <div>
-        Usage
-    </div>
+  <div>Usage</div>
 </template>
